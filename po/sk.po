@@ -45,7 +45,7 @@ msgstr "Adresa: "
 #: conn/raw.c:203 recvcmd.c:232 send/send.c:187
 #, c-format
 msgid "Bad IDN: '%s'"
-msgstr "Zlý IDN: „%s“"
+msgstr "Chybné IDN: „%s“"
 
 #: alias/alias.c:454
 msgid "Personal name: "
@@ -87,12 +87,12 @@ msgstr "alias: žiadna adresa"
 #: alias/commands.c:78
 #, c-format
 msgid "Warning: Bad address '%s' in alias '%s'"
-msgstr "Pozor: Neplatná adresa „%s“ v aliasu „%s“"
+msgstr "Pozor: Neplatná adresa „%s“ v aliase „%s“"
 
 #: alias/commands.c:87
 #, c-format
 msgid "Warning: Bad IDN '%s' in alias '%s'"
-msgstr "Pozor: Neplatné IDN „%s“ v aliasu „%s“"
+msgstr "Pozor: Neplatné IDN „%s“ v aliase „%s“"
 
 #: alias/dlgalias.c:57 alias/dlgquery.c:58 autocrypt/dlgautocrypt.c:61
 #: browser.c:76 browser.c:89 conn/dlgverifycert.c:47 history/dlghistory.c:46
@@ -113,11 +113,11 @@ msgstr "Obnov"
 
 #: alias/dlgalias.c:60 alias/dlgquery.c:62
 msgid "Sort"
-msgstr "Radiť"
+msgstr "Zoradiť"
 
 #: alias/dlgalias.c:61 alias/dlgquery.c:63
 msgid "Rev-Sort"
-msgstr "Spätne Radiť"
+msgstr "Spätne Zoradiť"
 
 #: alias/dlgalias.c:62 history/dlghistory.c:47 ncrypt/dlggpgme.c:65
 #: ncrypt/dlgpgp.c:54 ncrypt/dlgsmime.c:49 pattern/dlgpattern.c:64
@@ -145,12 +145,12 @@ msgstr "Nemáte žiadne aliasy"
 #. L10N: The highlighted letters must match the "Sort" options
 #: alias/dlgalias.c:268 alias/dlgquery.c:471
 msgid "Rev-Sort (a)lias, a(d)dress or (u)nsorted?"
-msgstr "Spätne Radiť podľa (a)liasu, a(d)resy alebo (n)eradiť"
+msgstr "Spätne Zoradiť podľa (a)liasu, a(d)resy alebo (n)eradiť"
 
 #. L10N: The highlighted letters must match the "Rev-Sort" options
 #: alias/dlgalias.c:270 alias/dlgquery.c:473
 msgid "Sort (a)lias, a(d)dress or (u)nsorted?"
-msgstr "Radiť podľa (a)liasu, a(d)resy alebo (n)eradiť"
+msgstr "Zoradiť podľa (a)liasu, a(d)resy alebo (n)eradiť"
 
 #. L10N: These must match the highlighted letters from "Sort" and "Rev-Sort"
 #: alias/dlgalias.c:272 alias/dlgquery.c:475
@@ -167,7 +167,7 @@ msgstr "Napíš"
 
 #: alias/dlgquery.c:60
 msgid "New Query"
-msgstr "Nová Dotaz"
+msgstr "Nový Dotaz"
 
 #: alias/dlgquery.c:61
 msgid "Make Alias"
@@ -221,7 +221,7 @@ msgstr "Nemožno vytvoriť %s: %s"
 #. with this message.
 #: autocrypt/autocrypt.c:160
 msgid "Create an initial autocrypt account?"
-msgstr "Vyvoriť prvotný autocrypt účet?"
+msgstr "Vytvoriť prvotný autocrypt účet?"
 
 #. L10N: Autocrypt is asking for the email address to use for the
 #. autocrypt account.  This will generate a key and add a record
@@ -263,7 +263,7 @@ msgstr "Vytvorenie autocrypt účtu prebehlo v poriadku"
 #. or was aborted by the user.
 #: autocrypt/autocrypt.c:234
 msgid "Autocrypt account creation aborted"
-msgstr "Vytovorenie autocrypt účtu bolo prerušené"
+msgstr "Vytvorenie autocrypt účtu bolo prerušené"
 
 #. L10N: Error displayed if the user tries to force sending an Autocrypt
 #. email when the engine is not available.
@@ -442,7 +442,7 @@ msgstr "Vytvoriť nový GPG kľúč pre tento účet?"
 #. database was upgraded by a future version.
 #: autocrypt/schema.c:124
 msgid "Autocrypt database version is too new"
-msgstr "Verze databáze autocrypt je príliš nová"
+msgstr "Verzia databáze autocrypt je príliš nová"
 
 #: bcache/bcache.c:77
 #, c-format
@@ -518,7 +518,7 @@ msgstr "Nemožno priložiť adresár"
 
 #: browser.c:1374 browser.c:1798 browser.c:1945
 msgid "No files match the file mask"
-msgstr "Žiadne súbory nezodpovedajú súborové maske"
+msgstr "Žiadne súbory nezodpovedajú súborovej maske"
 
 #: browser.c:1581
 msgid "Create is only supported for IMAP mailboxes"
@@ -568,12 +568,12 @@ msgstr "Maska Súborov: "
 #. L10N: The highlighted letters must match the "Sort" options
 #: browser.c:1815
 msgid "Reverse sort by (d)ate, (a)lpha, si(z)e, d(e)scription, (c)ount, ne(w) count, or do(n)'t sort?"
-msgstr "Spätně Radiť podľa (d)átumu, (z)nakov, (v)eľkosti, (p)opisu, p(o)čtu, no(v)ých, (n)etriediť?"
+msgstr "Spätně Zoradiť podľa (d)átumu, (z)nakov, (v)eľkosti, (p)opisu, p(o)čtu, no(v)ých, (n)etriediť?"
 
 #. L10N: The highlighted letters must match the "Reverse Sort" options
 #: browser.c:1818
 msgid "Sort by (d)ate, (a)lpha, si(z)e, d(e)scription, (c)ount, ne(w) count, or do(n)'t sort?"
-msgstr "Radiť podľa (d)átumu, (z)nakov, (v)eľkosti, (p)opisu, p(o)čtu, no(v)ých, alebo (n)etriediť?"
+msgstr "Zoradiť podľa (d)átumu, (z)nakov, (v)eľkosti, (p)opisu, p(o)čtu, no(v)ých, alebo (n)etriediť?"
 
 #. L10N: These must match the highlighted letters from "Sort" and "Reverse Sort"
 #: browser.c:1821
@@ -927,12 +927,12 @@ msgstr[2] "Správ nemohlo byť vytlačených"
 #. L10N: The highlighted letters must match the "Sort" options
 #: commands.c:777
 msgid "Rev-Sort (d)ate,(f)rm,(r)ecv,(s)ubj,t(o),(t)hread,(u)nsort,si(z)e,s(c)ore,s(p)am,(l)abel?"
-msgstr "Spätne Radiť (d)atum,(o)d,pri(j)ímateľ,predme(t),(p)ro,v(l)akno,(n)eradiť,veľ(k)osť,(s)kore,sp(a)m,š(t)ítok?"
+msgstr "Spätne Zoradiť (d)atum,(o)d,pri(j)ímateľ,predme(t),(p)ro,v(l)akno,(n)eradiť,veľ(k)osť,(s)kore,sp(a)m,š(t)ítok?"
 
 #. L10N: The highlighted letters must match the "Rev-Sort" options
 #: commands.c:781
 msgid "Sort (d)ate,(f)rm,(r)ecv,(s)ubj,t(o),(t)hread,(u)nsort,si(z)e,s(c)ore,s(p)am,(l)abel?"
-msgstr "Radiť (d)atum,(o)d,pri(j)ímateľ,predme(t),(p)ro,v(l)akno,(n)eradiť,veľ(k)osť,(s)kore,sp(a)m,š(t)ítok?"
+msgstr "Zoradiť (d)atum,(o)d,pri(j)ímateľ,predme(t),(p)ro,v(l)akno,(n)eradiť,veľ(k)osť,(s)kore,sp(a)m,š(t)ítok?"
 
 #. L10N: These must match the highlighted letters from "Sort" and "Rev-Sort"
 #: commands.c:785
